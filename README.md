@@ -1,53 +1,107 @@
-# KQC7016 Assignment 2 - Smart Hospital Part B
+# KQC7016 Assignment 2: Smart Hospital Data Analytics
 
-This repository contains the code, dataset, and result figures for Part B of KQC7016 Assignment 2.
+This repository contains the code, datasets, and result files for KQC7016 Assignment 2.
 
-## Topic
+## Project Title
 
-Smart Hospital Patient Risk Classification and Service Association Analysis
+**AI for Medicine: Smart Hospital**
 
-## Part B Focus
+## Team Members
 
-This part focuses on patient risk classification and hospital service association patterns.  
-The main purpose is to help a smart hospital identify high-risk patients and understand common service combinations.
+* NIE JING
+* DAI FENFANG
 
-## Methods Used
+## Project Overview
 
-1. Decision Tree Classification  
-2. Association Rule Mining
+This project applies data analytics methods to a smart hospital scenario. The aim is to support hospital operation efficiency, patient risk classification, healthcare service planning, and business intelligence decision-making.
 
-## Files Included
+The project is divided into two connected parts:
 
-- `KQC7016_PartB_patient_risk_analysis.py`  
-  Python code for data simulation, preprocessing, decision tree classification, association rule mining, and result visualization.
+## Part A: Patient Waiting Time Prediction and Operation Efficiency
 
-- `smart_hospital_partb_patient_risk_dataset.csv`  
-  Simulated smart hospital dataset used for Part B analysis.
+Part A focuses on predicting patient waiting time and identifying congestion patterns in a smart hospital.
 
-- `partb_decision_tree_metrics.csv`  
-  Classification model evaluation results.
+### Methods Used
 
-- `partb_association_rules.csv`  
-  Association rule mining results.
+* Multiple Linear Regression
+* K-Means Clustering
 
-- `partb_fig_confusion_matrix.png`  
-  Confusion matrix of the decision tree model.
+### Main Objectives
 
-- `partb_fig_risk_distribution.png`  
-  Patient risk level distribution.
+* To analyse patient waiting time patterns.
+* To predict patient waiting time using hospital operation variables.
+* To group patients into low, medium, and high waiting-time patterns.
+* To support queue management and staff allocation.
 
-- `partb_fig_risk_by_department.png`  
-  Patient risk level by department.
+### Main Files
 
-- `partb_fig_service_by_risk.png`  
-  Hospital service usage by risk level.
+* `PartA_WaitingTime_Analysis.ipynb`
+* `smart_hospital_waiting_time.xls`
+* `smart_hospital_waiting_time_with_clusters.xls`
 
-- `partb_fig_simplified_decision_tree.png`  
-  Simplified decision tree visualization.
+### Main Results
 
-## How to Run
+The regression model achieved:
 
-Open the Python file and run:
+* MSE = 65.39
+* RMSE = 8.09 minutes
+* R² = 0.878
 
-```python
-KQC7016_PartB_patient_risk_analysis.py
+The clustering model identified three patient waiting-time groups:
+
+* Cluster 0: High waiting-time group
+* Cluster 1: Low waiting-time group
+* Cluster 2: Medium waiting-time group
+
+## Part B: Patient Risk Classification and Service Association Analysis
+
+Part B focuses on classifying patient risk levels and discovering healthcare service usage patterns.
+
+### Methods Used
+
+* Decision Tree Classification
+* Association Rule Mining
+
+### Main Objectives
+
+* To classify patients into Low, Medium, and High risk groups.
+* To identify service association patterns.
+* To support triage planning and healthcare resource allocation.
+
+### Main Files
+
+* `KQC7016_PartB_patient_risk_analysis.py`
+* `smart_hospital_partb_patient_risk_dataset.csv`
+* `partb_decision_tree_metrics.csv`
+* `partb_association_rules.csv`
+* `partb_fig_confusion_matrix.png`
+* `partb_fig_risk_by_department.png`
+* `partb_fig_risk_distribution.png`
+* `partb_fig_service_by_risk.png`
+* `partb_fig_simplified_decision_tree.png`
+
+### Main Results
+
+The decision tree model achieved:
+
+* Accuracy = 74.4%
+* Weighted precision = 73.5%
+* Weighted recall = 74.4%
+* Weighted F1-score = 73.5%
+
+The association rules showed that high-risk patients were strongly linked with observation, ECG, laboratory tests, and hospital admission.
+
+## Tools Used
+
+* Python
+* Jupyter Notebook
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+
+## Dataset Note
+
+The datasets used in this project are simulated smart hospital datasets. They were created for academic analysis and do not contain real patient records.
+
