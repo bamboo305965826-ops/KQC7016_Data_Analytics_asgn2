@@ -1,0 +1,13 @@
+Antecedent,Consequent,Support,Confidence,Lift
+"Dept_Emergency, Service_Hospital_Admission",Risk_High,0.108,0.9310344827586207,3.1242767877806066
+"Low_Oxygen, Service_Observation",Risk_High,0.15,0.9259259259259258,3.107133979617201
+"Low_Oxygen, Service_Hospital_Admission",Risk_High,0.12,0.923076923076923,3.097573567372225
+"Age_65plus, Low_Oxygen",Risk_High,0.11,0.9166666666666667,3.0760626398210293
+"Service_Hospital_Admission, Service_Observation",Risk_High,0.18,0.9090909090909091,3.050640634533252
+"Age_65plus, Service_Hospital_Admission",Risk_High,0.13,0.9027777777777779,3.0294556301267717
+"Age_65plus, Dept_Emergency",Risk_High,0.094,0.8867924528301887,2.9758136001013047
+"Admission_Emergency, Service_Hospital_Admission",Risk_High,0.076,0.8837209302325582,2.9655064772904636
+"Service_Hospital_Admission, Service_Lab_Test",Risk_High,0.17,0.8762886597938144,2.9405659724624647
+"Service_ECG, Service_Hospital_Admission",Risk_High,0.138,0.8734177215189874,2.930931951405998
+"High_Pain, Risk_High",Service_Hospital_Admission,0.104,0.7428571428571428,2.9246344206974126
+"Admission_Walk-in, Risk_High",Service_Hospital_Admission,0.08,0.7407407407407408,2.916302128900554

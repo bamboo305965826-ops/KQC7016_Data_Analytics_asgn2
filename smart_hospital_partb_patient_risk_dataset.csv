@@ -1,0 +1,501 @@
+Patient_ID,Age,Gender,Department,Admission_Type,Chronic_Disease,Diabetes,Hypertension,Heart_Rate,Systolic_BP,Oxygen_Saturation,Temperature,Pain_Score,Lab_Test,ECG,X_Ray,Pharmacy,Observation,Hospital_Admission,Risk_Level,Satisfaction_Score
+1,69,Male,General Medicine,Follow-up,Yes,Yes,Yes,97,165,98.8,36.8,9,1,1,1,1,0,0,High,62.3
+2,32,Male,Cardiology,Follow-up,No,No,No,82,121,97.7,37.9,7,0,1,0,0,0,1,Low,88.6
+3,89,Male,General Medicine,Follow-up,Yes,No,Yes,102,125,95.6,38.3,4,1,0,0,1,0,0,Medium,56.4
+4,78,Male,Emergency,Referral,No,Yes,No,64,111,94.4,37.8,6,1,0,1,0,0,0,Medium,65.0
+5,38,Female,General Medicine,Emergency,No,No,Yes,62,143,97.4,36.8,2,1,0,0,1,0,0,Low,85.9
+6,41,Female,General Medicine,Referral,Yes,Yes,No,87,107,95.2,35.9,5,0,0,0,0,0,0,Low,88.9
+7,20,Female,Emergency,Emergency,No,No,Yes,100,166,94.4,37.1,6,1,1,0,1,1,1,High,66.7
+8,39,Female,Cardiology,Emergency,No,No,No,94,129,94.5,36.8,1,0,1,1,1,1,0,Low,85.6
+9,70,Male,Emergency,Walk-in,Yes,Yes,Yes,101,134,88.9,37.2,10,1,0,1,0,1,1,High,46.5
+10,19,Male,Emergency,Walk-in,No,No,No,96,99,97.5,37.2,5,0,0,0,1,0,0,Low,74.0
+11,47,Male,Orthopedics,Referral,No,Yes,Yes,77,153,97.4,37.8,7,0,0,1,0,0,0,Low,76.9
+12,55,Female,Cardiology,Referral,Yes,No,Yes,109,160,96.0,36.9,4,0,1,0,1,0,0,Medium,64.7
+13,19,Female,Pediatrics,Walk-in,No,No,No,67,108,97.9,37.0,9,1,0,0,1,0,0,Low,87.9
+14,81,Male,Cardiology,Walk-in,Yes,Yes,Yes,92,112,92.9,36.5,7,1,1,0,0,1,1,High,49.3
+15,77,Male,General Medicine,Follow-up,No,Yes,Yes,68,151,93.5,37.6,9,1,0,1,1,0,1,High,40.1
+16,38,Female,Pediatrics,Walk-in,No,No,Yes,89,141,96.3,36.8,10,1,1,1,0,0,0,Low,78.1
+17,50,Female,General Medicine,Walk-in,No,Yes,No,67,128,100.0,36.6,3,0,0,1,1,0,0,Low,89.9
+18,75,Male,General Medicine,Emergency,No,No,Yes,92,179,93.1,36.0,1,1,0,0,1,1,1,High,50.2
+19,39,Male,Cardiology,Referral,No,Yes,No,84,130,91.0,36.9,5,1,0,0,1,0,0,Medium,75.1
+20,66,Female,Cardiology,Referral,Yes,No,Yes,111,143,94.8,36.6,3,1,1,0,1,0,0,High,60.4
+21,76,Male,Orthopedics,Walk-in,No,No,Yes,78,123,98.4,37.9,7,0,0,0,1,0,0,Low,96.6
+22,59,Male,Pediatrics,Emergency,No,Yes,Yes,88,138,93.0,38.0,8,1,0,0,1,1,0,High,54.1
+23,77,Male,Orthopedics,Referral,No,No,No,71,125,93.1,36.2,5,0,0,1,0,0,0,Medium,66.5
+24,32,Female,Emergency,Referral,Yes,Yes,Yes,95,145,94.6,36.9,7,1,1,1,1,0,0,Medium,61.8
+25,79,Female,Pediatrics,Walk-in,Yes,Yes,Yes,88,175,100.0,36.7,5,1,1,0,1,1,1,High,49.2
+26,79,Female,Orthopedics,Follow-up,Yes,No,No,66,131,91.7,36.4,5,0,0,0,1,0,0,Medium,48.0
+27,64,Female,Emergency,Emergency,Yes,No,No,79,120,90.8,37.7,6,1,1,0,1,1,0,High,50.3
+28,79,Female,Emergency,Walk-in,Yes,Yes,No,107,109,93.6,37.4,6,0,1,1,0,1,1,High,45.1
+29,68,Female,Pediatrics,Follow-up,Yes,Yes,Yes,85,149,98.8,37.1,4,1,0,0,0,0,1,Medium,52.7
+30,72,Female,General Medicine,Walk-in,No,No,Yes,74,128,94.4,37.5,4,0,0,0,0,0,0,Low,73.6
+31,81,Male,Pediatrics,Walk-in,Yes,Yes,Yes,77,147,91.1,36.3,5,1,1,0,0,1,0,High,59.3
+32,20,Male,Emergency,Walk-in,No,No,No,84,131,96.0,38.2,4,1,0,1,1,0,0,Low,84.1
+33,68,Male,Pediatrics,Walk-in,No,Yes,No,84,118,98.4,36.5,2,1,0,0,1,1,0,Low,77.9
+34,24,Male,Emergency,Follow-up,Yes,No,No,105,111,98.1,38.9,10,0,0,0,0,0,0,Medium,72.8
+35,38,Male,Emergency,Walk-in,No,No,No,65,90,96.5,38.6,4,0,0,0,0,0,1,Low,77.8
+36,90,Male,Emergency,Follow-up,Yes,No,No,119,143,94.7,37.5,8,0,1,0,0,1,1,High,58.2
+37,56,Male,Pediatrics,Walk-in,Yes,No,Yes,106,151,95.4,36.3,2,0,0,1,0,0,0,Low,83.1
+38,35,Female,General Medicine,Emergency,No,Yes,No,50,130,100.0,36.2,5,1,0,0,1,0,0,Low,68.9
+39,21,Female,General Medicine,Emergency,No,No,Yes,97,116,96.1,37.4,4,1,0,0,0,0,0,Low,96.7
+40,77,Male,Cardiology,Referral,Yes,No,No,102,155,93.4,36.9,7,1,1,0,0,1,0,High,55.3
+41,31,Male,Orthopedics,Walk-in,Yes,No,Yes,87,136,100.0,37.5,8,1,0,1,1,0,0,Medium,64.7
+42,26,Female,Cardiology,Follow-up,No,Yes,Yes,64,147,93.6,38.2,6,1,1,0,0,1,1,High,35.7
+43,70,Male,Pediatrics,Walk-in,Yes,Yes,Yes,101,125,91.8,36.4,10,1,0,0,1,0,1,High,55.6
+44,19,Male,Cardiology,Follow-up,No,No,Yes,79,120,97.3,36.2,5,1,1,0,0,0,0,Low,80.9
+45,77,Female,Cardiology,Emergency,Yes,Yes,Yes,95,173,94.8,37.0,1,1,1,0,1,1,1,High,61.2
+46,88,Male,General Medicine,Follow-up,No,No,Yes,113,167,95.3,37.6,3,1,0,0,1,1,0,Medium,61.9
+47,61,Female,Cardiology,Referral,No,No,No,86,127,99.3,36.3,9,0,0,0,1,0,0,Low,74.5
+48,25,Male,Pediatrics,Referral,No,No,No,69,110,94.9,36.9,1,0,0,0,0,0,0,Low,90.1
+49,64,Female,General Medicine,Referral,Yes,No,Yes,82,137,96.1,37.7,5,0,1,0,1,0,0,Low,90.3
+50,52,Female,Emergency,Referral,No,Yes,No,83,116,94.2,36.6,4,0,0,1,1,0,0,Low,83.5
+51,53,Female,Orthopedics,Walk-in,No,No,Yes,88,122,95.0,37.0,5,0,0,0,0,0,0,Low,88.1
+52,67,Male,Cardiology,Emergency,Yes,Yes,Yes,76,147,95.9,36.6,1,1,1,1,1,1,1,High,46.7
+53,21,Female,General Medicine,Emergency,No,No,No,75,125,99.0,37.0,3,1,0,0,1,0,0,Low,84.1
+54,19,Male,Orthopedics,Follow-up,No,No,No,64,140,100.0,37.3,10,0,0,1,1,0,0,Low,92.5
+55,23,Male,General Medicine,Walk-in,No,No,No,80,122,98.3,37.0,7,0,0,0,1,0,0,Low,87.6
+56,71,Male,Emergency,Referral,Yes,Yes,Yes,101,116,87.0,37.0,10,1,1,0,1,1,1,High,45.5
+57,21,Male,Orthopedics,Walk-in,No,Yes,No,50,128,96.9,36.6,4,0,0,0,0,0,0,Low,94.2
+58,71,Female,General Medicine,Emergency,Yes,No,Yes,91,139,94.9,37.8,4,1,0,0,1,0,0,Medium,48.7
+59,80,Female,Cardiology,Emergency,Yes,No,Yes,86,177,97.0,37.1,2,0,1,0,1,1,0,High,70.5
+60,35,Male,Emergency,Referral,Yes,Yes,Yes,88,170,94.4,38.1,5,1,0,0,0,1,1,High,31.6
+61,61,Male,Pediatrics,Walk-in,No,No,No,110,148,99.9,37.1,9,0,1,0,1,0,0,Low,76.4
+62,51,Female,General Medicine,Emergency,Yes,No,Yes,100,134,96.9,37.4,3,1,0,1,1,0,0,Medium,69.6
+63,79,Male,General Medicine,Walk-in,Yes,Yes,No,72,158,98.4,36.7,5,1,0,0,1,1,0,Medium,63.7
+64,31,Female,Orthopedics,Emergency,No,No,No,94,128,96.0,36.4,3,1,0,0,0,0,0,Low,91.1
+65,65,Male,Pediatrics,Walk-in,No,No,No,99,151,97.3,37.4,4,1,0,0,0,0,0,Low,72.5
+66,32,Male,Emergency,Walk-in,No,No,No,96,113,96.9,38.3,9,1,0,0,0,1,0,Medium,67.3
+67,89,Female,Cardiology,Referral,No,No,Yes,87,147,94.5,36.4,7,0,1,0,0,0,0,Low,76.8
+68,79,Male,Cardiology,Walk-in,Yes,No,Yes,92,157,93.0,36.6,3,1,1,0,0,1,1,High,49.7
+69,57,Female,Pediatrics,Walk-in,No,No,No,53,125,95.6,36.8,5,1,0,0,1,0,0,Low,81.4
+70,70,Male,Emergency,Emergency,Yes,No,Yes,96,167,92.3,38.6,3,1,1,0,1,1,0,High,52.8
+71,41,Male,General Medicine,Emergency,No,No,Yes,79,140,98.2,37.2,10,1,0,0,1,0,0,Medium,65.1
+72,43,Male,Pediatrics,Walk-in,Yes,No,Yes,107,165,91.8,36.1,10,1,1,0,1,1,1,High,42.4
+73,77,Female,Orthopedics,Walk-in,Yes,No,Yes,92,157,91.2,36.8,10,1,1,1,0,1,1,High,49.6
+74,58,Male,Cardiology,Walk-in,No,No,No,78,126,100.0,36.8,1,0,0,0,0,0,0,Low,90.5
+75,46,Male,Pediatrics,Walk-in,No,No,No,81,134,95.3,36.2,5,1,0,0,1,0,0,Low,76.6
+76,32,Male,Emergency,Referral,No,No,No,108,113,95.5,37.5,10,0,0,1,1,0,0,Low,74.2
+77,62,Male,Pediatrics,Follow-up,No,No,No,79,164,93.6,36.7,9,1,0,0,1,1,0,Medium,70.5
+78,82,Female,Emergency,Referral,No,Yes,No,84,90,94.0,37.4,3,0,0,0,0,0,0,Medium,69.7
+79,88,Female,Cardiology,Emergency,No,No,Yes,78,164,94.1,36.7,1,1,1,0,0,1,1,High,54.5
+80,26,Male,Pediatrics,Walk-in,Yes,Yes,No,100,90,92.4,37.8,4,1,0,0,1,0,0,Medium,61.8
+81,18,Female,Emergency,Emergency,No,No,No,101,118,98.1,37.4,6,1,0,0,0,0,0,Medium,54.0
+82,25,Male,Emergency,Walk-in,No,No,No,95,120,97.7,37.6,4,0,0,0,0,0,0,Low,77.2
+83,80,Male,Pediatrics,Follow-up,Yes,Yes,Yes,90,171,94.6,36.9,9,1,1,0,0,1,1,High,40.1
+84,28,Male,Pediatrics,Emergency,No,No,No,74,110,99.3,36.6,9,0,1,0,0,1,0,Low,76.3
+85,25,Female,General Medicine,Walk-in,Yes,No,No,84,146,100.0,36.9,2,0,0,1,0,0,0,Low,76.3
+86,52,Female,General Medicine,Walk-in,No,No,No,73,101,98.7,36.9,9,0,0,0,0,0,0,Low,88.7
+87,52,Female,General Medicine,Referral,Yes,No,No,83,146,97.1,36.9,6,0,0,0,0,0,0,Low,79.4
+88,50,Female,Cardiology,Walk-in,No,No,Yes,101,143,97.5,36.4,8,1,1,0,0,0,0,Low,83.4
+89,22,Female,Cardiology,Emergency,No,No,No,67,131,98.5,36.8,10,1,1,1,1,1,0,Medium,66.4
+90,58,Female,Emergency,Walk-in,Yes,No,No,89,116,93.2,38.1,6,1,1,0,1,1,1,High,48.8
+91,45,Female,Orthopedics,Walk-in,Yes,No,Yes,69,167,95.4,36.8,3,1,0,1,0,1,1,Medium,59.8
+92,24,Female,General Medicine,Emergency,No,Yes,Yes,61,164,98.0,37.0,2,1,0,0,1,1,0,Medium,69.6
+93,90,Female,Cardiology,Walk-in,Yes,Yes,Yes,84,160,93.7,37.0,9,1,1,0,1,1,1,High,39.8
+94,89,Male,General Medicine,Emergency,Yes,Yes,No,78,101,94.0,37.2,1,0,0,0,0,0,0,Medium,82.6
+95,29,Female,Orthopedics,Emergency,No,No,Yes,107,131,97.0,37.2,8,1,0,1,1,1,0,Medium,62.9
+96,51,Female,Emergency,Walk-in,No,No,Yes,90,125,97.6,37.5,5,0,1,0,0,1,0,Low,65.2
+97,50,Female,General Medicine,Emergency,Yes,No,No,105,90,93.4,36.4,3,0,1,0,0,1,1,High,48.7
+98,65,Female,General Medicine,Walk-in,Yes,Yes,Yes,101,167,97.7,36.2,2,1,1,0,1,0,1,High,44.3
+99,40,Female,General Medicine,Referral,Yes,No,No,84,116,97.8,37.5,10,1,0,0,1,0,0,Low,88.0
+100,79,Female,Emergency,Referral,Yes,Yes,Yes,129,138,94.6,38.1,8,1,1,0,0,1,1,High,66.9
+101,54,Female,Orthopedics,Emergency,No,No,No,86,149,95.1,37.3,10,0,0,1,1,0,0,Low,74.9
+102,61,Female,Orthopedics,Emergency,No,No,No,103,113,93.1,37.4,3,0,0,1,0,0,0,Medium,73.0
+103,52,Female,General Medicine,Emergency,No,No,No,102,107,98.3,36.8,10,0,0,0,1,1,0,Low,61.2
+104,82,Female,General Medicine,Walk-in,Yes,Yes,No,93,118,95.2,36.5,4,0,0,0,0,0,1,Medium,69.1
+105,64,Female,Orthopedics,Referral,Yes,Yes,Yes,98,124,98.3,36.3,10,0,0,0,0,0,0,Medium,62.0
+106,20,Male,Pediatrics,Emergency,Yes,Yes,Yes,96,150,94.4,36.2,9,1,0,0,1,1,1,High,41.4
+107,18,Male,Emergency,Follow-up,No,No,Yes,78,137,96.7,38.3,10,1,0,1,1,0,0,Medium,60.1
+108,22,Female,General Medicine,Emergency,No,No,Yes,83,135,99.4,36.6,6,0,0,0,0,1,0,Low,83.6
+109,31,Female,General Medicine,Walk-in,No,No,Yes,97,133,96.8,37.5,4,1,0,0,1,0,0,Low,91.1
+110,44,Male,Cardiology,Referral,No,Yes,No,103,128,98.0,36.8,7,1,1,0,1,1,0,Low,77.2
+111,26,Female,Pediatrics,Follow-up,No,No,Yes,72,146,97.9,36.5,1,0,0,0,0,0,0,Low,74.2
+112,32,Male,Orthopedics,Referral,No,No,No,89,113,95.1,36.2,5,0,0,1,0,0,0,Low,96.3
+113,59,Male,Orthopedics,Referral,No,No,No,84,116,98.2,36.5,6,0,0,1,0,0,0,Low,75.2
+114,68,Male,Cardiology,Walk-in,Yes,Yes,Yes,85,151,99.7,37.8,8,1,1,1,1,1,1,High,27.5
+115,80,Male,Emergency,Referral,Yes,Yes,No,104,119,92.9,36.9,4,1,1,0,1,1,1,High,51.1
+116,69,Male,Orthopedics,Emergency,No,No,No,85,123,93.6,38.2,6,1,0,1,1,1,1,High,37.1
+117,21,Female,Pediatrics,Follow-up,No,No,No,90,110,95.4,36.4,6,1,0,0,1,0,0,Low,90.9
+118,40,Male,Emergency,Walk-in,No,No,No,114,140,90.9,38.0,7,1,1,0,0,1,1,High,43.6
+119,32,Female,Orthopedics,Referral,No,No,No,93,124,100.0,36.8,10,0,0,1,0,0,0,Low,87.4
+120,60,Female,Orthopedics,Walk-in,No,Yes,No,86,113,98.8,36.7,10,1,0,0,0,0,0,Low,94.6
+121,46,Male,General Medicine,Referral,Yes,No,No,113,128,94.8,36.1,1,1,1,0,1,0,0,Medium,59.1
+122,53,Male,General Medicine,Walk-in,No,No,No,98,121,93.7,36.8,3,1,0,0,1,0,0,Low,76.9
+123,30,Female,Cardiology,Referral,Yes,No,No,86,99,94.1,36.2,2,0,0,0,1,1,0,Low,76.3
+124,49,Male,Emergency,Emergency,Yes,No,Yes,82,150,92.5,36.6,5,1,0,0,1,1,1,High,60.8
+125,88,Male,Cardiology,Emergency,Yes,Yes,Yes,73,134,95.1,37.0,10,0,1,1,1,1,0,High,46.1
+126,76,Female,Pediatrics,Walk-in,Yes,No,No,100,139,95.0,36.5,9,0,0,0,0,0,0,Medium,64.6
+127,45,Female,Emergency,Emergency,No,No,No,85,118,98.1,38.6,10,1,1,0,1,0,0,Medium,74.3
+128,83,Male,Cardiology,Follow-up,Yes,Yes,Yes,73,166,93.2,37.5,10,1,1,0,0,1,0,High,46.8
+129,59,Female,Cardiology,Emergency,Yes,Yes,Yes,76,141,92.5,37.9,2,1,1,0,1,1,0,High,53.4
+130,62,Male,General Medicine,Follow-up,No,Yes,No,72,123,94.3,36.5,3,1,0,0,0,0,0,Low,68.0
+131,79,Male,Orthopedics,Walk-in,Yes,No,No,99,144,94.7,37.0,5,0,0,0,0,0,0,Low,100.0
+132,74,Male,Cardiology,Emergency,Yes,No,No,85,125,93.1,35.5,9,0,1,1,0,1,0,High,39.9
+133,23,Female,Cardiology,Referral,Yes,No,No,68,119,95.3,36.7,3,1,0,1,1,1,0,Low,74.1
+134,45,Female,Pediatrics,Referral,Yes,Yes,Yes,87,156,95.0,37.0,7,1,0,0,1,0,0,Medium,69.7
+135,45,Female,Cardiology,Walk-in,No,No,No,85,141,99.3,37.0,3,1,1,0,0,0,0,Low,99.2
+136,61,Female,Emergency,Walk-in,No,No,No,87,112,93.6,37.6,9,1,1,0,1,0,0,Medium,58.1
+137,47,Female,Cardiology,Referral,No,No,No,98,94,96.1,36.9,7,1,1,0,1,0,0,Low,99.9
+138,79,Male,Emergency,Walk-in,Yes,Yes,Yes,93,133,94.4,36.0,10,0,1,1,1,1,1,High,53.8
+139,79,Male,Emergency,Follow-up,No,Yes,Yes,110,156,92.5,37.8,4,1,0,0,0,1,1,High,50.8
+140,18,Male,General Medicine,Follow-up,No,No,No,90,108,98.0,37.2,6,0,0,0,0,0,0,Low,73.1
+141,44,Male,Cardiology,Referral,Yes,No,Yes,100,152,96.8,37.7,9,1,1,1,1,0,0,Medium,75.1
+142,79,Female,Orthopedics,Emergency,Yes,Yes,No,72,110,95.1,37.1,3,0,0,1,1,0,0,Medium,63.5
+143,20,Male,Cardiology,Referral,No,No,No,83,95,94.4,36.8,2,0,0,1,1,0,0,Low,93.4
+144,87,Female,General Medicine,Emergency,No,Yes,No,81,110,98.6,37.6,5,1,0,0,0,0,0,Medium,61.3
+145,89,Male,General Medicine,Emergency,Yes,Yes,Yes,67,156,99.9,35.5,10,1,1,0,1,1,1,High,46.0
+146,44,Female,Emergency,Walk-in,No,Yes,No,109,90,95.0,37.3,10,0,0,0,0,0,0,Medium,65.0
+147,26,Female,General Medicine,Walk-in,No,No,No,71,127,94.6,36.4,10,0,0,0,0,0,0,Low,73.1
+148,79,Male,Emergency,Follow-up,Yes,Yes,No,90,101,92.9,37.6,10,1,1,0,1,1,1,High,53.7
+149,54,Male,Orthopedics,Referral,Yes,No,No,73,133,98.3,35.6,10,0,0,1,0,0,0,Low,86.8
+150,68,Male,Emergency,Referral,No,Yes,Yes,104,157,93.6,38.4,4,1,0,0,1,1,1,High,57.9
+151,61,Male,Cardiology,Walk-in,Yes,No,Yes,66,149,95.7,36.8,5,0,1,0,0,0,0,Medium,54.0
+152,41,Female,Emergency,Walk-in,No,No,Yes,103,141,95.8,37.8,9,1,1,0,1,0,0,Medium,79.6
+153,76,Male,Orthopedics,Walk-in,Yes,Yes,Yes,102,129,97.6,37.0,7,1,0,1,1,1,0,Medium,87.5
+154,49,Male,General Medicine,Follow-up,Yes,Yes,No,95,98,97.8,37.7,6,0,0,0,1,0,0,Low,77.9
+155,69,Female,General Medicine,Emergency,No,No,No,92,153,98.9,35.8,7,0,0,0,0,1,0,Low,94.1
+156,79,Male,Emergency,Follow-up,Yes,Yes,Yes,110,128,91.8,37.7,5,1,0,1,1,1,1,High,44.6
+157,75,Male,Pediatrics,Walk-in,No,Yes,Yes,69,172,96.7,37.6,3,1,0,0,1,0,0,Medium,57.6
+158,69,Male,Emergency,Walk-in,No,Yes,No,114,107,93.3,37.5,10,0,1,0,0,1,1,High,44.2
+159,29,Male,Orthopedics,Referral,Yes,Yes,Yes,81,153,97.9,36.3,10,0,0,1,1,0,0,Medium,79.4
+160,56,Male,Emergency,Walk-in,Yes,Yes,Yes,98,124,96.6,37.2,10,1,1,0,1,1,1,High,39.5
+161,19,Female,Emergency,Follow-up,No,No,No,89,131,96.3,37.4,7,0,1,0,1,0,0,Low,76.6
+162,20,Male,Emergency,Follow-up,No,No,No,101,116,94.2,37.2,8,1,0,0,0,0,0,Low,87.3
+163,73,Male,General Medicine,Walk-in,Yes,Yes,Yes,79,138,94.3,36.8,10,1,0,1,1,1,0,Medium,65.0
+164,76,Male,General Medicine,Walk-in,No,Yes,Yes,83,155,100.0,37.8,1,1,1,0,1,0,0,Low,87.3
+165,19,Male,Emergency,Walk-in,No,No,No,77,114,94.2,37.2,10,1,1,1,1,0,0,Low,84.1
+166,19,Male,Pediatrics,Follow-up,No,No,No,98,96,99.4,36.6,1,0,0,0,0,0,0,Low,86.3
+167,71,Female,Cardiology,Emergency,No,No,Yes,91,166,96.6,37.2,4,0,1,1,1,1,1,High,43.1
+168,18,Male,General Medicine,Walk-in,No,No,Yes,78,123,96.2,36.8,2,0,0,1,0,0,0,Low,84.1
+169,36,Female,Cardiology,Walk-in,No,No,No,75,139,93.9,36.1,7,0,0,0,0,0,0,Medium,61.7
+170,19,Female,Cardiology,Referral,Yes,No,No,96,148,96.5,36.9,2,1,1,0,1,0,0,Low,93.6
+171,70,Male,General Medicine,Emergency,No,No,Yes,72,137,97.2,36.8,10,1,0,1,1,1,1,Medium,54.3
+172,61,Male,Emergency,Referral,Yes,Yes,Yes,101,165,98.2,38.2,4,0,1,1,1,1,0,High,62.2
+173,49,Male,Emergency,Follow-up,No,No,Yes,110,153,93.0,37.0,7,1,1,0,1,0,0,High,54.9
+174,87,Male,Orthopedics,Emergency,Yes,Yes,Yes,76,131,100.0,37.5,5,0,1,1,0,1,0,High,53.8
+175,49,Female,Orthopedics,Walk-in,Yes,Yes,Yes,92,169,96.9,36.8,9,0,0,0,0,0,1,High,47.5
+176,85,Male,Cardiology,Follow-up,No,No,No,86,109,96.7,36.2,4,0,0,1,0,1,0,Low,67.9
+177,72,Male,Cardiology,Emergency,Yes,No,No,86,123,93.4,36.1,6,1,1,0,1,1,0,High,36.3
+178,73,Male,General Medicine,Referral,Yes,No,No,80,118,95.5,38.1,5,1,0,0,1,0,0,Medium,60.5
+179,34,Male,Cardiology,Walk-in,Yes,No,No,104,141,97.1,36.8,2,1,0,0,1,0,0,Low,79.1
+180,55,Male,Emergency,Walk-in,Yes,Yes,No,91,142,96.2,38.2,10,1,1,1,1,1,1,High,48.9
+181,41,Male,Emergency,Follow-up,No,No,No,69,141,92.7,36.6,4,1,1,1,1,0,0,Medium,79.1
+182,86,Female,Pediatrics,Walk-in,Yes,Yes,Yes,96,148,98.0,38.5,9,1,0,0,0,1,1,High,43.0
+183,87,Female,General Medicine,Walk-in,Yes,No,Yes,70,139,95.6,37.4,9,1,0,0,1,1,0,Medium,57.1
+184,28,Male,Emergency,Walk-in,No,No,No,104,90,96.4,37.4,5,0,1,1,1,0,0,Low,69.0
+185,33,Male,Emergency,Walk-in,No,No,No,113,98,94.5,37.4,6,1,0,0,1,0,0,Medium,74.3
+186,90,Male,Emergency,Emergency,No,No,Yes,103,176,91.7,38.0,10,1,1,0,1,1,1,High,59.4
+187,76,Female,General Medicine,Walk-in,No,Yes,No,97,90,96.0,37.3,9,1,0,0,1,0,0,Low,93.4
+188,87,Male,Emergency,Follow-up,Yes,No,Yes,127,130,93.2,37.7,5,1,1,1,0,1,1,High,53.4
+189,20,Female,Emergency,Walk-in,No,No,No,108,143,91.8,37.6,7,0,0,0,0,0,0,Medium,75.7
+190,37,Male,Pediatrics,Referral,No,No,No,87,126,98.8,37.2,8,1,1,0,1,1,0,Low,92.3
+191,76,Male,Emergency,Walk-in,Yes,Yes,No,122,139,95.1,36.6,5,1,1,0,1,1,1,High,50.0
+192,53,Male,General Medicine,Referral,No,No,No,107,132,95.3,36.7,7,0,0,1,1,0,0,Low,87.8
+193,36,Male,Emergency,Emergency,No,No,No,119,148,92.6,36.6,10,0,1,1,0,1,1,High,44.1
+194,84,Female,Emergency,Follow-up,No,No,No,87,127,93.1,38.0,10,1,1,0,1,1,0,High,39.7
+195,36,Female,Cardiology,Walk-in,Yes,Yes,Yes,68,164,96.1,36.5,3,1,1,0,0,1,1,High,40.8
+196,37,Male,Pediatrics,Walk-in,No,No,No,74,109,96.4,36.0,2,0,0,0,0,0,0,Low,81.9
+197,88,Male,Orthopedics,Emergency,Yes,Yes,Yes,97,155,94.7,36.4,10,1,0,1,1,1,1,High,47.5
+198,69,Female,Pediatrics,Emergency,No,No,Yes,84,137,97.5,37.0,7,1,0,0,0,1,0,Medium,82.3
+199,50,Female,Cardiology,Walk-in,No,No,Yes,79,144,93.9,36.8,9,0,0,0,1,1,1,Medium,60.7
+200,57,Female,General Medicine,Walk-in,Yes,Yes,Yes,95,160,93.1,36.2,1,1,0,0,1,1,0,High,62.6
+201,56,Female,Emergency,Referral,Yes,No,No,78,138,87.7,36.6,5,1,0,0,1,0,0,High,53.1
+202,18,Male,Cardiology,Walk-in,No,No,No,84,160,99.2,36.9,5,0,1,1,1,0,0,Low,79.2
+203,28,Female,Orthopedics,Walk-in,No,No,No,98,151,97.0,36.6,4,0,0,1,0,1,1,Low,60.0
+204,74,Male,Emergency,Walk-in,Yes,No,Yes,107,161,95.2,37.4,3,1,1,0,1,1,0,High,45.3
+205,67,Female,Emergency,Referral,No,Yes,No,104,91,92.4,37.5,9,1,1,1,0,0,1,High,56.7
+206,40,Female,Emergency,Emergency,No,No,No,116,155,95.1,37.9,9,0,1,0,1,1,1,High,47.1
+207,48,Female,Emergency,Emergency,No,No,Yes,93,161,95.5,38.1,10,1,0,1,0,1,1,High,55.5
+208,59,Female,Emergency,Emergency,Yes,Yes,Yes,90,130,92.7,37.7,10,1,1,0,1,1,1,High,48.6
+209,24,Female,General Medicine,Referral,No,No,No,99,135,93.4,36.7,5,0,1,0,1,1,1,Low,68.8
+210,33,Male,Cardiology,Referral,Yes,Yes,No,103,111,100.0,36.9,10,1,1,0,1,0,0,Medium,89.3
+211,77,Male,Orthopedics,Walk-in,Yes,Yes,Yes,95,155,98.0,36.7,6,0,1,1,1,0,0,Medium,69.2
+212,19,Female,Pediatrics,Referral,Yes,No,Yes,85,120,95.1,35.9,5,0,1,0,1,0,0,Low,92.5
+213,18,Female,Cardiology,Referral,No,No,No,82,115,98.2,37.6,1,0,1,0,0,0,0,Low,78.4
+214,65,Male,Cardiology,Walk-in,Yes,No,Yes,69,165,94.9,37.4,10,0,1,0,1,1,0,High,58.4
+215,29,Female,Cardiology,Follow-up,No,No,No,98,149,94.7,38.1,5,1,1,1,1,1,0,Low,85.4
+216,86,Female,General Medicine,Emergency,Yes,No,Yes,102,150,99.0,38.3,6,1,0,0,1,1,0,High,53.9
+217,54,Male,Cardiology,Emergency,Yes,No,Yes,69,147,92.2,36.2,1,1,1,0,1,1,1,High,25.8
+218,49,Female,General Medicine,Walk-in,Yes,No,No,99,90,95.3,36.7,7,0,0,0,0,0,0,Low,82.2
+219,26,Female,Cardiology,Emergency,No,No,Yes,88,148,97.2,38.4,1,1,1,0,1,0,1,Medium,76.1
+220,36,Male,General Medicine,Walk-in,No,No,No,68,132,100.0,36.9,2,0,0,1,1,0,0,Low,86.7
+221,65,Male,Cardiology,Follow-up,No,Yes,Yes,65,146,99.1,37.0,2,1,0,0,1,0,0,Medium,74.0
+222,20,Male,Cardiology,Emergency,Yes,No,Yes,92,152,92.2,36.0,5,1,1,0,1,1,1,High,31.5
+223,37,Female,Orthopedics,Emergency,No,No,Yes,76,141,97.0,37.0,10,0,1,1,1,1,0,Medium,58.5
+224,41,Male,Pediatrics,Walk-in,No,No,No,107,116,97.0,38.1,7,1,0,0,1,0,0,Low,85.7
+225,71,Male,Emergency,Follow-up,Yes,Yes,Yes,112,145,92.3,38.4,3,1,1,1,1,1,0,High,55.7
+226,50,Male,Orthopedics,Walk-in,Yes,No,Yes,94,139,97.4,36.5,10,0,0,0,0,0,0,Medium,80.9
+227,41,Male,General Medicine,Walk-in,No,No,No,89,148,93.8,36.7,1,0,0,1,1,0,0,Low,80.7
+228,89,Male,Orthopedics,Emergency,Yes,No,No,106,90,93.9,36.2,2,1,0,0,0,1,1,High,50.7
+229,53,Male,Pediatrics,Emergency,No,No,No,94,112,98.1,36.4,6,0,0,0,0,0,0,Low,82.1
+230,55,Female,Cardiology,Follow-up,Yes,No,Yes,94,136,97.6,35.8,2,1,0,0,1,0,0,Medium,61.1
+231,42,Female,Emergency,Follow-up,No,Yes,Yes,80,148,95.3,37.5,3,1,0,1,1,1,1,Medium,39.7
+232,35,Male,Cardiology,Emergency,No,No,Yes,125,153,96.3,37.8,6,1,1,0,1,0,0,Medium,73.9
+233,83,Male,General Medicine,Follow-up,Yes,No,No,72,151,94.5,37.1,2,0,0,0,0,0,0,Low,83.6
+234,71,Male,General Medicine,Walk-in,No,No,No,78,157,97.5,37.7,6,0,0,0,0,0,0,Low,76.4
+235,52,Female,Cardiology,Follow-up,No,Yes,No,59,116,97.1,37.5,10,1,1,1,1,1,0,Low,62.4
+236,78,Female,Emergency,Walk-in,Yes,Yes,Yes,107,144,90.4,37.3,10,1,0,1,0,0,1,High,57.7
+237,58,Female,Pediatrics,Walk-in,Yes,Yes,No,89,126,93.2,36.4,2,0,0,0,0,0,0,Medium,67.6
+238,50,Female,Orthopedics,Walk-in,No,Yes,No,93,108,93.6,36.5,10,1,0,0,1,0,0,Medium,75.0
+239,85,Female,General Medicine,Referral,Yes,Yes,Yes,63,155,98.1,35.9,8,1,0,1,1,0,0,Medium,86.8
+240,50,Female,Emergency,Emergency,Yes,Yes,No,115,118,95.9,37.6,10,1,1,0,1,1,1,High,27.7
+241,31,Female,Cardiology,Emergency,Yes,No,No,76,111,95.8,35.5,1,1,0,0,1,0,0,Medium,63.7
+242,38,Female,Emergency,Walk-in,No,No,Yes,92,139,94.0,38.0,9,1,1,0,1,0,0,Medium,68.1
+243,65,Female,Orthopedics,Referral,No,No,Yes,95,126,95.7,36.9,10,0,0,0,1,0,0,Low,95.1
+244,37,Male,Emergency,Emergency,No,No,Yes,98,163,97.5,37.9,8,1,0,0,0,1,1,High,32.3
+245,25,Male,General Medicine,Referral,No,No,No,87,156,100.0,37.5,6,1,0,0,1,0,0,Low,99.4
+246,24,Male,Cardiology,Follow-up,No,No,No,93,134,95.6,37.0,6,0,1,0,0,0,1,Low,78.2
+247,84,Male,General Medicine,Emergency,Yes,Yes,Yes,93,146,97.4,37.9,6,1,1,1,1,0,0,High,56.1
+248,34,Female,General Medicine,Referral,Yes,Yes,No,82,125,96.1,37.3,10,1,0,1,1,0,0,Medium,68.2
+249,50,Female,Pediatrics,Walk-in,Yes,Yes,No,85,143,95.5,36.4,7,0,0,0,0,0,0,Low,78.1
+250,65,Male,Emergency,Follow-up,No,No,Yes,97,165,98.5,37.5,5,1,0,0,0,0,1,Medium,74.4
+251,76,Female,Emergency,Emergency,Yes,Yes,Yes,86,142,92.8,36.2,8,1,0,0,1,1,1,High,37.4
+252,39,Male,Emergency,Referral,No,No,No,108,127,95.7,37.1,5,0,1,0,0,0,0,Low,85.1
+253,47,Female,Orthopedics,Referral,No,No,No,86,134,97.6,36.7,8,0,0,1,1,0,0,Low,78.5
+254,55,Male,Orthopedics,Follow-up,No,No,No,83,102,93.3,37.2,8,0,1,1,1,0,0,Medium,63.1
+255,68,Female,General Medicine,Referral,Yes,Yes,No,104,144,96.7,36.4,8,1,0,0,0,0,1,Medium,88.3
+256,71,Female,General Medicine,Walk-in,Yes,Yes,No,85,153,93.5,36.2,2,1,1,0,1,0,0,High,60.8
+257,25,Male,General Medicine,Walk-in,No,Yes,No,79,143,93.7,35.8,9,1,0,0,0,0,0,Medium,75.5
+258,44,Female,Emergency,Follow-up,No,No,Yes,87,122,93.8,37.2,7,0,0,0,0,1,0,Medium,75.2
+259,44,Male,Orthopedics,Walk-in,Yes,No,No,92,90,94.8,38.1,10,1,0,1,1,0,0,Medium,57.2
+260,38,Male,Cardiology,Emergency,Yes,No,Yes,91,165,98.4,37.1,10,1,1,0,1,1,1,High,62.8
+261,47,Male,Cardiology,Follow-up,Yes,No,No,78,116,93.6,37.5,5,1,1,0,1,0,0,Medium,47.4
+262,45,Male,General Medicine,Referral,Yes,No,No,85,127,94.2,36.4,7,0,0,1,0,1,0,Low,70.1
+263,81,Female,Emergency,Referral,Yes,Yes,No,90,150,93.3,36.7,10,1,0,0,0,0,1,High,47.9
+264,86,Female,Emergency,Emergency,Yes,Yes,Yes,89,132,89.8,36.9,6,1,0,0,1,1,0,High,57.2
+265,78,Female,Pediatrics,Referral,No,No,No,58,115,94.3,36.8,2,0,1,0,0,0,0,Low,84.0
+266,65,Male,Emergency,Walk-in,Yes,No,Yes,96,149,90.2,36.4,10,1,1,0,1,1,1,High,45.5
+267,36,Female,General Medicine,Referral,No,Yes,No,58,99,99.1,36.3,2,0,0,0,0,0,0,Low,81.9
+268,21,Male,Cardiology,Emergency,Yes,No,No,81,116,95.3,36.5,3,1,1,0,1,0,0,Medium,61.2
+269,52,Female,Cardiology,Referral,No,No,Yes,73,152,97.0,36.1,10,0,0,1,1,1,0,Low,63.5
+270,81,Female,Cardiology,Follow-up,Yes,Yes,No,102,125,96.9,35.6,2,0,1,0,1,0,0,Medium,76.5
+271,66,Female,Cardiology,Emergency,No,No,Yes,68,163,95.3,37.1,3,1,1,0,1,1,1,High,53.2
+272,34,Male,Pediatrics,Follow-up,No,No,No,71,172,96.3,36.9,6,0,0,0,1,0,0,Low,96.3
+273,61,Female,Cardiology,Walk-in,Yes,Yes,Yes,82,154,93.6,37.4,3,1,1,0,1,1,0,High,44.9
+274,47,Female,General Medicine,Follow-up,No,No,Yes,74,129,94.6,36.2,10,0,1,0,0,0,0,Low,88.2
+275,63,Male,General Medicine,Referral,Yes,No,Yes,106,170,93.9,37.4,8,1,0,0,1,1,1,High,44.4
+276,23,Female,General Medicine,Walk-in,No,No,No,66,93,95.9,37.8,6,0,0,0,0,0,0,Low,92.7
+277,54,Male,Orthopedics,Referral,Yes,Yes,Yes,82,119,95.1,37.1,8,1,0,1,1,0,0,Medium,79.2
+278,41,Female,Pediatrics,Follow-up,No,Yes,Yes,87,133,97.7,36.5,1,1,0,0,1,0,0,Low,83.9
+279,63,Male,Emergency,Walk-in,Yes,No,No,111,117,92.0,37.7,5,1,1,1,1,1,0,High,48.9
+280,70,Male,Emergency,Walk-in,Yes,Yes,Yes,94,133,94.7,37.2,5,0,0,0,1,1,1,High,55.6
+281,77,Female,Cardiology,Referral,No,Yes,Yes,55,151,96.9,36.4,2,0,1,0,0,0,0,Medium,75.8
+282,80,Male,General Medicine,Referral,Yes,Yes,No,85,127,93.7,37.3,7,1,1,0,1,1,1,High,40.8
+283,49,Male,Emergency,Referral,No,Yes,No,113,141,93.1,37.5,10,1,1,1,0,1,0,High,40.0
+284,50,Male,General Medicine,Referral,Yes,No,No,91,124,96.2,37.6,4,0,0,0,0,0,1,Low,74.4
+285,84,Male,General Medicine,Walk-in,No,No,No,85,112,95.3,36.6,5,1,0,1,1,0,0,Low,95.6
+286,35,Male,Cardiology,Referral,No,No,No,67,148,97.5,36.7,3,1,1,1,1,0,0,Low,92.3
+287,42,Male,Pediatrics,Emergency,Yes,Yes,No,71,107,99.6,36.6,9,0,0,0,0,1,1,Medium,50.0
+288,71,Female,Emergency,Walk-in,Yes,No,No,99,93,93.0,36.9,6,1,1,0,1,1,1,High,36.5
+289,75,Male,Emergency,Emergency,Yes,Yes,No,79,144,91.3,38.1,7,0,0,0,0,1,1,High,58.5
+290,84,Male,Pediatrics,Walk-in,Yes,Yes,Yes,98,165,92.8,38.2,1,0,1,1,1,1,1,High,36.8
+291,63,Female,General Medicine,Walk-in,Yes,No,No,75,108,94.0,36.7,2,0,0,0,1,0,0,Low,86.6
+292,41,Female,General Medicine,Walk-in,Yes,No,No,87,115,92.6,36.5,9,1,0,1,1,0,0,Medium,64.5
+293,49,Female,Cardiology,Referral,No,Yes,No,56,113,99.1,36.5,2,1,1,0,1,0,1,Low,91.6
+294,64,Female,Cardiology,Walk-in,Yes,No,No,81,136,90.9,36.5,5,1,1,0,0,0,0,Medium,63.1
+295,40,Female,Pediatrics,Walk-in,Yes,No,Yes,70,175,97.1,37.9,8,1,0,0,1,0,0,Medium,80.3
+296,83,Female,Pediatrics,Walk-in,No,Yes,Yes,50,157,93.8,36.5,3,0,0,0,0,0,0,Medium,71.7
+297,44,Female,General Medicine,Walk-in,No,No,Yes,90,163,95.8,36.5,6,0,0,1,1,0,0,Low,84.3
+298,19,Male,Cardiology,Walk-in,No,No,No,105,145,94.9,36.2,4,0,1,0,0,0,0,Low,64.3
+299,34,Male,General Medicine,Emergency,No,No,No,98,122,100.0,37.1,7,1,0,0,1,0,0,Low,62.2
+300,50,Female,Cardiology,Walk-in,Yes,No,Yes,97,172,96.0,36.9,10,1,1,0,1,1,1,High,45.0
+301,26,Male,Emergency,Referral,No,No,Yes,88,157,96.8,36.9,5,1,0,0,1,0,0,Low,84.2
+302,60,Male,Orthopedics,Walk-in,Yes,No,Yes,98,170,99.0,36.4,7,1,0,1,1,1,0,Medium,54.9
+303,65,Male,Emergency,Walk-in,Yes,No,Yes,116,136,94.4,38.5,10,1,0,0,0,1,0,High,42.2
+304,56,Female,Orthopedics,Walk-in,No,Yes,No,84,91,94.3,36.9,10,0,0,1,0,0,0,Low,87.1
+305,59,Female,Cardiology,Follow-up,No,No,Yes,65,171,96.5,37.0,10,0,1,1,0,0,1,Medium,70.1
+306,43,Male,Emergency,Walk-in,No,Yes,No,87,128,93.3,37.7,3,1,0,1,0,0,0,Medium,68.8
+307,67,Female,General Medicine,Walk-in,Yes,No,No,111,117,94.8,37.7,3,1,0,0,1,0,0,Medium,77.0
+308,42,Male,Orthopedics,Emergency,Yes,No,No,86,118,95.8,36.3,3,1,1,0,1,0,0,Medium,59.4
+309,41,Male,Pediatrics,Walk-in,No,Yes,No,50,168,96.7,36.7,8,1,0,0,1,0,0,Medium,66.8
+310,30,Male,Pediatrics,Walk-in,No,No,No,61,110,97.9,36.8,7,0,0,0,0,0,0,Low,96.8
+311,77,Male,General Medicine,Walk-in,No,No,No,76,107,97.1,35.9,2,0,0,1,0,0,0,Low,82.6
+312,24,Female,General Medicine,Walk-in,No,No,Yes,97,146,96.7,36.4,6,0,0,0,1,0,0,Low,83.1
+313,74,Female,Pediatrics,Walk-in,No,No,Yes,78,165,96.7,37.5,3,1,1,0,1,0,0,Medium,90.8
+314,53,Female,Cardiology,Walk-in,No,Yes,Yes,97,193,95.7,37.4,8,0,0,0,0,0,0,Medium,57.4
+315,62,Male,General Medicine,Referral,Yes,No,Yes,80,156,99.0,37.5,10,1,0,0,1,0,0,Medium,77.2
+316,37,Female,Emergency,Referral,No,No,No,66,99,93.7,37.2,5,0,1,1,0,1,0,Medium,80.0
+317,82,Male,Orthopedics,Referral,Yes,No,Yes,80,179,97.6,36.6,10,1,1,1,1,1,0,High,49.1
+318,25,Female,Orthopedics,Follow-up,Yes,No,No,92,122,92.6,35.8,10,1,0,0,0,0,0,Medium,77.7
+319,33,Male,Emergency,Emergency,No,No,No,98,107,94.1,38.2,3,1,0,1,1,0,0,Medium,61.2
+320,31,Male,Pediatrics,Emergency,No,No,No,64,103,96.2,37.6,5,0,0,0,0,0,0,Low,75.8
+321,32,Male,Orthopedics,Emergency,No,Yes,No,77,137,97.6,37.6,4,1,0,1,0,0,0,Low,85.5
+322,83,Female,Emergency,Referral,Yes,Yes,No,137,126,94.8,38.6,8,1,0,1,1,0,0,High,64.2
+323,49,Female,General Medicine,Follow-up,Yes,No,Yes,70,150,93.1,37.2,10,1,1,1,0,1,0,High,62.1
+324,80,Female,Orthopedics,Walk-in,Yes,No,Yes,96,167,92.3,37.8,3,1,1,0,1,1,1,High,61.1
+325,68,Female,Emergency,Follow-up,No,Yes,Yes,65,130,91.8,37.5,10,1,1,0,1,1,1,High,46.4
+326,42,Male,General Medicine,Emergency,Yes,Yes,No,99,147,99.0,35.8,6,1,0,0,1,1,0,Medium,75.7
+327,75,Female,Cardiology,Follow-up,Yes,Yes,Yes,75,143,95.5,37.4,7,1,1,0,1,0,0,Medium,66.9
+328,80,Female,Orthopedics,Walk-in,No,No,No,88,161,93.3,35.8,6,0,0,1,1,0,0,Medium,78.1
+329,79,Male,Orthopedics,Emergency,Yes,Yes,Yes,69,155,93.8,37.0,10,1,0,1,1,1,1,High,48.9
+330,39,Male,Orthopedics,Walk-in,No,Yes,No,86,105,99.7,37.5,2,0,0,0,0,0,0,Low,86.0
+331,75,Male,General Medicine,Walk-in,Yes,Yes,Yes,74,108,94.2,37.1,5,0,0,0,0,0,0,Medium,73.8
+332,75,Female,Orthopedics,Walk-in,No,No,No,72,137,95.0,38.3,10,1,1,1,0,0,1,Low,62.6
+333,66,Male,Pediatrics,Walk-in,No,Yes,Yes,88,137,95.2,35.7,6,1,0,0,1,0,0,Low,71.9
+334,69,Male,Cardiology,Referral,Yes,Yes,Yes,81,149,93.6,36.9,7,1,1,0,1,1,0,High,52.9
+335,59,Male,Pediatrics,Walk-in,Yes,No,No,92,136,98.7,36.9,4,0,0,0,0,0,0,Low,66.8
+336,87,Female,Emergency,Walk-in,Yes,No,Yes,96,162,96.6,36.8,3,1,1,0,1,1,1,High,54.5
+337,32,Male,General Medicine,Walk-in,No,Yes,No,83,144,94.7,36.2,8,0,0,1,0,1,0,Low,84.8
+338,71,Female,Emergency,Referral,Yes,Yes,No,105,101,96.0,37.1,10,0,1,1,0,0,1,High,54.9
+339,77,Female,Emergency,Walk-in,No,No,Yes,89,170,92.7,36.9,6,1,0,0,0,1,1,High,36.9
+340,25,Male,Emergency,Walk-in,No,No,No,80,112,96.2,37.5,5,0,0,0,1,1,0,Low,89.4
+341,70,Male,General Medicine,Emergency,Yes,No,Yes,80,103,99.2,36.5,7,0,0,0,0,1,0,Medium,83.3
+342,77,Female,Cardiology,Emergency,Yes,No,Yes,104,131,94.5,37.1,2,1,1,0,0,1,1,High,48.3
+343,22,Male,Pediatrics,Referral,No,No,Yes,84,148,96.2,37.3,8,0,0,1,0,1,0,Low,81.6
+344,85,Male,Emergency,Emergency,Yes,No,Yes,87,126,94.6,37.9,8,1,1,1,1,1,0,High,53.8
+345,23,Female,Cardiology,Walk-in,No,No,No,88,128,94.4,36.7,7,0,0,1,1,0,0,Low,86.8
+346,64,Female,General Medicine,Referral,No,Yes,No,89,128,99.6,37.1,5,0,0,0,1,0,0,Low,80.9
+347,72,Male,Pediatrics,Emergency,Yes,No,No,94,119,95.1,37.5,9,1,0,1,1,0,0,Medium,69.7
+348,57,Female,Cardiology,Walk-in,No,Yes,No,68,121,95.7,37.2,5,1,0,0,1,1,0,Low,85.2
+349,69,Male,General Medicine,Walk-in,Yes,No,Yes,77,121,94.6,38.0,5,1,0,0,1,0,0,Medium,91.1
+350,33,Male,Orthopedics,Follow-up,Yes,No,Yes,78,144,92.8,37.5,4,1,0,1,1,0,0,Medium,57.4
+351,30,Male,General Medicine,Walk-in,No,No,No,77,90,95.8,37.9,1,1,0,0,1,0,0,Low,81.1
+352,47,Female,Emergency,Referral,No,No,No,102,110,94.4,36.1,4,1,0,1,0,1,0,Low,66.4
+353,36,Male,Emergency,Walk-in,Yes,No,No,103,105,91.6,37.7,10,0,1,1,0,1,0,High,66.3
+354,34,Male,Orthopedics,Emergency,No,No,No,87,118,96.9,36.7,2,1,1,0,1,0,0,Low,76.7
+355,80,Male,Emergency,Walk-in,Yes,Yes,Yes,118,140,93.9,37.5,9,1,1,1,1,1,1,High,34.0
+356,36,Female,Orthopedics,Follow-up,No,No,No,92,139,96.5,36.4,6,0,0,0,1,0,0,Low,87.7
+357,75,Female,General Medicine,Walk-in,Yes,Yes,Yes,85,173,96.3,37.1,3,1,1,0,0,1,0,High,67.7
+358,72,Female,Orthopedics,Referral,Yes,No,Yes,70,124,92.9,35.8,8,1,1,1,1,0,0,High,63.0
+359,79,Female,Pediatrics,Follow-up,No,Yes,Yes,72,180,98.1,37.1,9,1,0,0,0,1,0,Medium,66.8
+360,40,Female,Orthopedics,Walk-in,Yes,No,Yes,83,130,96.3,36.4,3,0,1,1,1,0,0,Low,85.7
+361,26,Male,Cardiology,Emergency,No,Yes,Yes,94,155,100.0,36.6,8,0,0,0,0,0,0,Medium,82.7
+362,29,Female,Pediatrics,Walk-in,No,No,No,82,131,100.0,37.2,9,0,0,0,1,1,0,Low,69.1
+363,18,Female,Cardiology,Walk-in,No,No,No,73,174,95.9,36.9,3,0,1,0,0,0,1,Low,76.0
+364,75,Female,General Medicine,Referral,No,No,Yes,72,134,94.8,37.5,2,1,1,0,1,0,0,Low,77.9
+365,18,Male,General Medicine,Follow-up,No,No,Yes,81,112,96.4,36.3,7,0,0,0,0,0,0,Low,71.5
+366,51,Female,Orthopedics,Walk-in,No,Yes,No,94,149,98.4,36.9,6,1,0,0,1,0,0,Low,79.0
+367,65,Female,Orthopedics,Walk-in,Yes,No,Yes,109,129,99.0,37.4,6,0,0,1,0,0,0,Medium,80.0
+368,18,Male,Pediatrics,Referral,No,No,No,79,115,95.5,37.1,10,0,0,0,0,0,0,Low,87.1
+369,33,Female,Cardiology,Walk-in,No,No,No,81,110,97.9,37.2,5,1,0,0,1,0,0,Low,87.8
+370,78,Male,Cardiology,Referral,Yes,Yes,Yes,70,146,94.5,37.6,4,1,0,0,1,0,0,Medium,71.3
+371,81,Male,Pediatrics,Walk-in,No,No,Yes,109,129,97.2,36.7,5,1,0,0,0,0,0,Low,86.7
+372,80,Male,Emergency,Referral,Yes,Yes,Yes,79,156,96.3,37.2,6,1,1,0,1,1,0,High,44.8
+373,86,Male,Emergency,Emergency,Yes,Yes,No,115,123,92.2,37.9,8,0,0,0,1,1,1,High,44.2
+374,39,Male,Cardiology,Walk-in,No,Yes,No,77,118,93.2,36.8,4,1,0,0,1,0,1,Medium,66.7
+375,84,Female,Cardiology,Walk-in,Yes,No,Yes,79,170,96.5,37.6,2,1,1,0,0,0,0,High,59.5
+376,43,Male,Cardiology,Walk-in,Yes,No,Yes,71,157,94.1,37.1,9,1,1,0,1,0,0,Medium,72.9
+377,33,Male,Emergency,Emergency,No,Yes,No,128,90,94.7,37.2,4,1,0,0,1,1,1,High,45.8
+378,68,Female,Emergency,Referral,Yes,Yes,Yes,102,161,95.8,37.8,10,1,1,0,1,1,0,High,48.6
+379,74,Male,Emergency,Follow-up,No,No,Yes,94,147,94.5,37.1,10,0,0,0,1,0,0,Medium,98.4
+380,46,Female,Orthopedics,Emergency,Yes,No,No,99,147,95.8,37.5,7,0,0,1,0,1,1,Medium,68.2
+381,86,Female,Cardiology,Emergency,No,No,No,73,132,94.5,36.1,9,0,1,0,0,1,1,Medium,63.7
+382,64,Female,Cardiology,Emergency,Yes,No,No,87,116,89.3,37.6,9,0,1,1,0,1,1,High,44.9
+383,79,Male,General Medicine,Referral,Yes,Yes,Yes,88,140,96.4,37.1,3,0,1,0,1,0,0,Medium,65.9
+384,86,Male,Emergency,Walk-in,No,Yes,Yes,87,158,93.2,37.5,3,1,1,0,0,1,1,High,45.8
+385,33,Male,Orthopedics,Walk-in,Yes,No,Yes,104,130,99.5,37.4,2,0,0,1,0,0,0,Low,84.6
+386,65,Female,Pediatrics,Walk-in,Yes,Yes,No,84,114,96.9,37.2,3,0,0,0,1,0,0,Medium,53.1
+387,56,Male,Emergency,Walk-in,No,Yes,Yes,72,140,93.8,38.4,7,1,0,0,0,1,1,High,32.9
+388,50,Male,Cardiology,Walk-in,No,No,No,78,109,99.5,37.7,3,1,0,1,0,0,0,Low,76.3
+389,40,Male,Orthopedics,Walk-in,Yes,No,Yes,90,130,98.6,37.1,10,1,0,0,1,0,0,Medium,71.9
+390,27,Female,Orthopedics,Follow-up,No,No,No,69,125,96.5,36.4,10,1,1,1,0,0,0,Low,79.8
+391,86,Female,General Medicine,Emergency,Yes,Yes,Yes,76,166,97.5,36.6,3,1,1,0,1,1,0,High,65.3
+392,51,Male,General Medicine,Referral,No,No,No,74,128,95.7,36.9,3,0,0,1,1,0,0,Low,68.7
+393,69,Male,Emergency,Walk-in,No,Yes,No,111,121,95.4,38.2,7,1,0,0,1,0,0,High,50.2
+394,27,Male,Orthopedics,Walk-in,Yes,No,No,80,107,97.3,36.6,3,1,0,1,1,0,0,Low,95.7
+395,36,Male,Emergency,Referral,No,No,No,114,142,96.8,37.4,8,1,0,1,1,0,1,Medium,66.2
+396,75,Female,Orthopedics,Referral,No,Yes,Yes,73,152,97.2,38.0,8,1,0,1,0,0,0,Medium,78.0
+397,18,Female,General Medicine,Follow-up,Yes,Yes,Yes,92,131,95.2,36.8,9,0,0,0,0,1,0,Medium,83.5
+398,86,Female,General Medicine,Emergency,Yes,Yes,Yes,81,160,97.3,36.5,6,1,1,0,1,1,0,High,45.8
+399,21,Female,General Medicine,Emergency,No,No,No,93,132,96.7,37.4,3,0,0,0,0,1,0,Low,76.1
+400,33,Male,Emergency,Referral,No,No,No,78,107,93.7,37.6,7,0,1,0,0,1,0,Medium,62.5
+401,41,Male,Emergency,Walk-in,Yes,Yes,Yes,109,142,92.7,36.8,6,1,0,1,1,0,1,High,34.4
+402,19,Male,Emergency,Walk-in,No,No,Yes,96,135,99.5,38.2,7,1,1,0,1,1,0,Medium,62.2
+403,49,Female,Emergency,Emergency,Yes,No,Yes,90,191,92.3,37.2,10,1,1,1,1,1,1,High,54.9
+404,41,Male,Pediatrics,Emergency,Yes,No,No,85,132,99.0,36.9,8,1,1,0,1,0,0,Medium,74.9
+405,29,Female,Cardiology,Follow-up,No,No,No,103,133,94.4,36.9,6,0,0,0,1,0,0,Low,87.6
+406,67,Female,Emergency,Emergency,No,Yes,No,96,131,96.1,37.7,3,1,0,1,1,0,0,Medium,66.6
+407,52,Male,Orthopedics,Walk-in,No,No,Yes,72,169,97.7,35.6,9,1,0,1,1,0,0,Medium,64.1
+408,50,Male,Orthopedics,Walk-in,No,Yes,Yes,65,142,100.0,36.7,9,1,0,0,1,0,0,Low,93.4
+409,50,Male,Orthopedics,Walk-in,Yes,No,Yes,94,133,94.5,37.6,3,1,0,1,0,0,0,Low,77.5
+410,78,Female,Orthopedics,Emergency,No,No,Yes,85,159,93.7,37.7,5,1,0,0,1,1,0,High,54.6
+411,68,Male,Emergency,Walk-in,Yes,Yes,Yes,109,141,93.7,37.0,4,1,1,0,1,1,0,High,53.5
+412,60,Female,Cardiology,Emergency,Yes,Yes,No,67,111,99.8,37.5,4,1,1,0,1,1,0,Medium,78.2
+413,29,Male,Pediatrics,Referral,Yes,No,No,71,99,94.0,36.4,10,0,0,1,1,0,0,Low,90.7
+414,84,Female,General Medicine,Walk-in,Yes,No,Yes,103,172,88.8,36.7,7,1,0,1,0,0,1,High,40.3
+415,82,Female,Emergency,Walk-in,No,Yes,No,99,124,93.9,37.4,10,1,1,0,1,1,0,High,41.3
+416,50,Male,Pediatrics,Follow-up,No,Yes,No,89,111,99.2,37.0,8,0,0,0,0,0,0,Low,87.2
+417,57,Female,Emergency,Referral,No,No,No,81,118,92.7,38.2,10,1,1,1,0,1,1,High,46.4
+418,60,Female,Emergency,Walk-in,No,No,Yes,80,159,97.0,37.8,10,0,1,1,1,0,0,Medium,65.9
+419,61,Male,General Medicine,Walk-in,No,Yes,No,96,117,94.6,36.8,2,0,0,0,0,0,0,Low,91.1
+420,46,Female,General Medicine,Walk-in,Yes,No,Yes,102,118,95.7,37.5,7,0,0,0,1,0,0,Low,83.7
+421,30,Male,General Medicine,Referral,No,No,Yes,67,150,98.7,36.4,2,1,0,0,0,0,0,Low,82.5
+422,29,Female,Emergency,Follow-up,No,No,No,76,144,92.3,37.6,4,0,0,0,1,0,0,Medium,77.0
+423,63,Male,Orthopedics,Referral,No,No,No,80,143,97.4,37.5,5,0,0,1,0,0,0,Low,78.6
+424,19,Male,Cardiology,Walk-in,No,No,No,71,120,99.8,37.2,1,0,1,1,1,0,0,Low,96.1
+425,52,Female,Emergency,Referral,Yes,No,Yes,88,167,95.1,37.3,7,1,1,0,1,1,1,High,39.9
+426,25,Female,Orthopedics,Walk-in,Yes,Yes,No,69,126,94.3,36.0,7,1,0,0,0,0,0,Low,87.9
+427,43,Female,Orthopedics,Emergency,No,Yes,No,75,144,100.0,37.1,10,0,0,1,0,0,0,Medium,82.9
+428,51,Female,Orthopedics,Walk-in,Yes,No,Yes,71,154,97.5,36.0,10,0,1,1,0,0,0,Medium,57.6
+429,24,Female,Pediatrics,Follow-up,No,Yes,No,67,95,92.7,36.8,8,0,0,0,1,0,1,Medium,61.9
+430,85,Male,General Medicine,Emergency,No,Yes,No,86,153,97.8,37.6,2,1,0,1,0,0,0,Medium,80.3
+431,75,Female,General Medicine,Referral,No,Yes,No,81,123,94.5,37.3,1,1,0,0,1,0,0,Low,92.4
+432,46,Male,Emergency,Emergency,Yes,No,No,106,132,94.5,36.4,4,1,0,0,0,1,0,Medium,63.5
+433,53,Male,Cardiology,Walk-in,No,Yes,No,59,106,99.3,37.0,7,0,0,0,0,0,0,Low,75.4
+434,38,Female,Cardiology,Emergency,Yes,No,Yes,87,161,94.7,36.7,4,1,1,0,1,1,1,High,55.6
+435,53,Male,Cardiology,Walk-in,No,No,Yes,111,172,93.2,36.1,10,1,1,0,1,1,1,High,57.7
+436,27,Male,Pediatrics,Referral,No,No,No,77,157,100.0,37.1,5,0,0,0,0,1,0,Low,66.5
+437,90,Male,General Medicine,Walk-in,Yes,No,No,99,147,97.5,36.6,7,1,1,0,0,0,0,Low,71.2
+438,41,Male,Emergency,Referral,No,No,Yes,105,154,94.8,37.3,5,0,0,0,1,0,0,Low,84.0
+439,81,Female,Emergency,Referral,Yes,Yes,Yes,111,116,94.8,37.7,10,1,1,0,1,1,0,High,57.7
+440,66,Male,General Medicine,Follow-up,No,Yes,No,84,124,96.2,36.5,2,0,0,0,0,0,0,Low,79.3
+441,53,Female,Emergency,Walk-in,Yes,Yes,No,107,111,94.2,37.7,9,1,0,1,1,0,0,Medium,76.1
+442,41,Female,Orthopedics,Walk-in,No,Yes,Yes,92,148,96.7,36.5,6,0,0,1,0,1,0,Low,70.6
+443,40,Male,General Medicine,Emergency,Yes,Yes,Yes,96,122,95.2,36.6,1,0,0,0,1,0,0,Medium,51.0
+444,79,Female,General Medicine,Follow-up,Yes,No,Yes,71,140,95.6,37.5,1,1,0,0,1,0,0,Medium,66.2
+445,54,Female,General Medicine,Follow-up,Yes,Yes,Yes,63,135,93.2,37.6,9,1,1,0,0,1,1,High,47.6
+446,29,Female,Pediatrics,Walk-in,Yes,No,No,65,112,95.4,35.9,5,1,0,0,1,0,0,Low,79.5
+447,72,Male,Cardiology,Referral,Yes,Yes,No,83,120,95.5,37.3,1,0,1,0,1,0,0,Medium,59.6
+448,30,Female,General Medicine,Walk-in,No,No,No,90,120,100.0,37.7,7,0,0,0,0,0,0,Low,65.7
+449,40,Female,General Medicine,Walk-in,No,No,No,67,127,94.3,37.8,9,0,0,0,1,0,0,Low,77.4
+450,47,Female,Cardiology,Emergency,No,No,No,95,90,98.2,37.2,1,0,0,0,0,0,0,Low,90.1
+451,34,Male,Orthopedics,Referral,Yes,No,No,80,90,97.4,36.3,10,1,0,1,0,0,0,Low,93.3
+452,79,Female,Pediatrics,Emergency,Yes,No,No,80,116,90.5,37.3,4,0,1,1,1,1,1,High,57.7
+453,30,Male,General Medicine,Referral,No,No,No,70,118,97.9,36.4,3,0,0,0,1,0,0,Low,74.7
+454,76,Male,Orthopedics,Referral,Yes,Yes,No,61,125,96.8,36.7,6,1,0,0,1,0,0,Medium,59.6
+455,36,Male,Orthopedics,Referral,Yes,No,No,90,109,97.4,37.1,8,0,0,1,0,0,0,Low,86.5
+456,66,Male,Pediatrics,Emergency,Yes,Yes,Yes,111,144,95.8,36.4,8,1,1,1,1,1,1,High,52.7
+457,29,Male,Pediatrics,Walk-in,No,No,No,81,124,97.8,36.2,2,0,0,0,0,0,0,Low,85.6
+458,78,Male,General Medicine,Walk-in,No,No,No,56,109,96.2,37.2,7,0,1,0,1,0,0,Low,63.9
+459,36,Female,General Medicine,Walk-in,Yes,No,No,98,140,92.1,38.0,1,1,0,0,0,0,0,Medium,62.2
+460,26,Male,General Medicine,Emergency,No,No,No,59,125,97.4,37.6,7,0,0,0,1,1,0,Low,76.7
+461,88,Female,Pediatrics,Follow-up,Yes,Yes,Yes,70,154,94.0,37.3,8,1,0,0,1,0,0,Medium,74.4
+462,45,Female,Emergency,Walk-in,No,Yes,Yes,91,145,93.4,38.2,4,1,1,0,1,1,1,High,53.9
+463,69,Male,Orthopedics,Walk-in,Yes,No,Yes,89,182,100.0,37.3,10,1,0,1,0,0,1,High,53.3
+464,33,Female,Orthopedics,Walk-in,No,No,Yes,68,155,99.9,37.2,2,1,0,1,0,0,0,Low,85.0
+465,86,Female,Emergency,Walk-in,No,No,Yes,90,135,91.2,38.1,8,1,1,0,0,1,1,High,47.8
+466,29,Female,Pediatrics,Walk-in,No,No,No,92,137,97.8,36.1,1,0,1,0,0,0,0,Low,88.2
+467,42,Female,Emergency,Walk-in,No,Yes,No,106,93,98.4,37.7,5,1,0,1,1,1,0,Low,79.8
+468,69,Male,Cardiology,Follow-up,Yes,Yes,Yes,105,154,92.6,36.9,6,1,1,0,1,1,1,High,47.6
+469,70,Female,Pediatrics,Walk-in,No,Yes,Yes,109,150,97.2,36.9,3,0,0,0,0,0,0,Low,79.6
+470,40,Male,Emergency,Follow-up,No,No,No,105,124,95.3,37.3,10,0,0,0,0,0,0,Low,82.7
+471,33,Female,Pediatrics,Referral,Yes,No,No,84,116,93.1,37.2,5,1,0,0,1,0,0,Medium,74.4
+472,74,Female,Pediatrics,Emergency,No,No,No,94,104,96.7,36.4,2,1,0,0,1,0,0,Low,84.4
+473,56,Male,General Medicine,Follow-up,No,No,No,89,108,99.6,36.6,4,1,0,1,0,0,0,Low,85.4
+474,70,Female,Emergency,Emergency,No,Yes,Yes,101,146,98.5,37.2,10,1,0,0,1,1,1,High,59.1
+475,59,Female,Cardiology,Referral,No,No,No,84,110,96.4,37.4,4,1,1,0,0,0,0,Low,84.4
+476,75,Female,General Medicine,Walk-in,No,Yes,No,69,154,100.0,36.9,10,0,0,0,1,0,0,Low,76.2
+477,56,Male,Orthopedics,Follow-up,No,No,No,68,90,92.3,36.6,10,0,1,0,0,0,0,Medium,78.0
+478,31,Female,General Medicine,Follow-up,No,No,No,81,116,97.8,36.7,8,0,0,1,1,0,0,Low,69.7
+479,22,Male,Cardiology,Referral,Yes,No,No,89,132,92.8,36.9,5,1,1,0,1,0,1,Medium,55.3
+480,52,Female,General Medicine,Referral,No,Yes,No,72,131,97.2,37.9,10,0,0,1,0,0,0,Low,85.0
+481,35,Male,General Medicine,Walk-in,Yes,No,No,93,106,94.8,36.2,1,0,0,0,0,0,0,Low,86.6
+482,26,Male,Pediatrics,Emergency,No,No,No,111,142,98.2,37.3,7,1,0,0,1,0,0,Medium,58.8
+483,75,Female,Emergency,Walk-in,No,No,No,70,97,93.5,37.9,5,1,0,1,1,0,0,Medium,66.6
+484,34,Female,Pediatrics,Emergency,No,No,Yes,90,134,95.1,36.4,10,0,1,0,0,1,0,Medium,59.5
+485,24,Male,General Medicine,Referral,No,No,No,81,133,95.3,37.8,8,1,0,1,0,0,0,Low,77.6
+486,63,Male,Orthopedics,Walk-in,Yes,Yes,Yes,93,163,100.0,37.2,4,0,0,1,1,1,0,Medium,73.5
+487,30,Female,Cardiology,Follow-up,No,No,No,76,105,98.0,36.6,1,0,1,0,0,0,0,Low,88.4
+488,57,Male,General Medicine,Referral,No,No,No,80,170,93.1,35.8,5,1,0,0,1,0,0,Medium,69.8
+489,59,Female,Orthopedics,Referral,No,No,No,84,106,98.3,37.0,3,0,0,0,0,0,0,Low,77.1
+490,26,Female,Emergency,Emergency,No,No,No,90,98,94.6,37.6,6,1,0,0,1,1,0,Medium,52.9
+491,67,Female,Orthopedics,Follow-up,No,No,Yes,61,153,97.0,36.3,2,0,0,0,1,0,0,Low,94.8
+492,44,Female,General Medicine,Follow-up,Yes,No,No,84,116,97.9,36.3,9,0,0,0,1,0,0,Low,87.3
+493,83,Male,Emergency,Walk-in,No,Yes,Yes,74,135,96.5,38.1,8,1,1,1,1,1,1,High,40.6
+494,22,Female,Cardiology,Walk-in,No,No,No,91,141,95.0,35.7,8,1,1,1,1,0,0,Low,88.5
+495,46,Male,Pediatrics,Referral,Yes,No,No,61,95,95.9,37.1,4,0,0,0,0,0,0,Low,81.4
+496,54,Female,Emergency,Emergency,No,No,No,108,91,93.7,37.5,10,1,1,0,1,1,1,High,44.4
+497,55,Male,General Medicine,Walk-in,Yes,Yes,No,93,111,97.4,37.2,2,0,0,0,0,0,0,Low,85.9
+498,25,Female,Cardiology,Walk-in,No,No,Yes,88,171,96.5,36.7,9,1,1,0,1,0,0,Medium,63.3
+499,82,Male,General Medicine,Emergency,Yes,Yes,Yes,57,134,94.9,37.1,5,1,1,0,1,1,1,High,43.9
+500,34,Male,Emergency,Walk-in,No,Yes,No,89,151,94.4,37.2,8,0,1,1,0,0,0,Medium,71.1
